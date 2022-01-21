@@ -34,12 +34,29 @@ function beepBoopReverse(input) {
 
   // UI Logic
 
+
+// $(document).ready(function() {
+//   $("form").submit(function(event){
+//     event.preventDefault();
+//     const inputNumber = $("input#inputNumber").val()
+//     const robogerResponse = beepBoop(inputNumber);
+//     $("#response").text(robogerResponse);
+//     $(".responseBox").fadeIn()
+//   })
+// });
+
+
 $(document).ready(function() {
   $("form").submit(function(event){
     event.preventDefault();
     const inputNumber = $("input#inputNumber").val()
-    const robogerResponse = beepBoopReverse(inputNumber);
+    const robogerResponse = beepBoop(inputNumber);
+    const checkbox = $("input#reverse").val()
+    if (checkbox === "reverse"){
+
+    } else {
     $("#response").text(robogerResponse);
     $(".responseBox").fadeIn()
+    }
   })
 });
