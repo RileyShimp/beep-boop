@@ -2,7 +2,7 @@
 
 body {
   background-image: url(../img/denis-degioanni-9wH624ALFQA-unsplash.jpg);
-  background-size: 300% 300%;
+  background-size: 250% 300%;
   animation: movingBackground 15s alternate infinite;
   font-family: 'Montserrat';
 }
@@ -23,3 +23,19 @@ header {
   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.8), 0 16px 30px 0 rgba(0, 0, 0, 0.7);
 }
 
+form {
+  color:  rgb(252, 252, 252);;
+}
+
+label {
+  font-size: 2em;
+}
+
+.responseBox {
+  display: none;
+  background-color: rgba(255, 250, 245, 0.865);
+  margin-top: 5em;
+  padding-top: 1.5em;
+  text-align: center;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.8), 0 16px 30px 0 rgba(0, 0, 0, 0.7);
+}

@@ -24,5 +24,6 @@ $(document).ready(function() {
     const inputNumber = $("input#inputNumber").val()
     const robogerResponse = beepBoop(inputNumber);
     $("#response").text(robogerResponse);
+    $(".responseBox").fadeIn()
 })
 });
