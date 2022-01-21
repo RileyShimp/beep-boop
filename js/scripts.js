@@ -1,7 +1,9 @@
 
 
 function beepBoop(input) {
-  let outputArray = [inputNumber];
-  let inputNumber = parseInt(input)
+  let outputArray = [];
+  for (let i = 0; i < input; i++) {
+    outputArray.push(i)
+  }
   return outputArray;
 }
