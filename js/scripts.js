@@ -18,6 +18,11 @@ function beepBoop(input) {
 
   // UI Logic
 
-// $(document).ready(fuction() {
-  
-// })
+$(document).ready(function() {
+  $("form").submit(function(event){
+    event.preventDefault();
+    const input = $("input#inputNumber").val()
+    const robogerResponse = beepBoop(input);
+    $("#response").text(robogerResponse);
+})
+});
