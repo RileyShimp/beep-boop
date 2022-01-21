@@ -38,7 +38,7 @@ function beepBoopReverse(input) {
 // $(document).ready(function() {
 //   $("form").submit(function(event){
 //     event.preventDefault();
-//     const inputNumber = $("input#inputNumber").val()
+//     const inputNumber = $("input#inputNumber").val();
 //     const robogerResponse = beepBoop(inputNumber);
 //     $("#response").text(robogerResponse);
 //     $(".responseBox").fadeIn()
@@ -49,14 +49,17 @@ function beepBoopReverse(input) {
 $(document).ready(function() {
   $("form").submit(function(event){
     event.preventDefault();
-    const inputNumber = $("input#inputNumber").val()
+    const inputNumber = $("input#inputNumber").val();
     const robogerResponse = beepBoop(inputNumber);
-    const checkbox = $("input#reverse").val()
-    if (checkbox === "reverse"){
-
-    } else {
-    $("#response").text(robogerResponse);
-    $(".responseBox").fadeIn()
+    const checkbox = $("#reverse");
+    const robogerResponseReverse = beepBoopReverse(inputNumber);
+    if (checkbox.checked = true) {
+      $("#response").text(robogerResponseReverse);
+      $(".responseBox").fadeIn();
+    } 
+    else {
+      $("#response").text(robogerResponse);
+      $(".responseBox").fadeIn()
     }
   })
 });
