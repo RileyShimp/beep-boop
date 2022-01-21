@@ -16,6 +16,11 @@
 This is a page that takes a number from the user and returns a range of numbers from 0 to the user inputted number with fun substitutions made for any number in the range containing a 1, 2 or 3.
 
 ## Setup/Installation Requirements
+
+Open this [Github Pages Link](https://rileyshimp.github.io/beep-boop/) in your browser.
+
+or follow the instructions below..
+
 ### Step 1
 Clone the repository:
 ``` 
@@ -24,7 +29,7 @@ $ git clone https://github.com/RileyShimp/beep-boop.git
 ### Step 2
 Navigate to the `Beep-Boop` directory on your computer.
 ### Step 3
-
+Open index.html in your preferred browser
 
 ## Tests:
 
@@ -58,3 +63,12 @@ Test "Multiple digit numbers in the output containing 1, 2 or 3 should be replac
 Code: beepBoop(100);
 Expected Output: [0, "Beep!", "Boop!",..., 89, 90, "Beep!", "Boop!", "Won't you be my neighbor?", 94,...]
 
+## Known Bugs
+
+* none
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 01/07/2022 Riley Shimp
