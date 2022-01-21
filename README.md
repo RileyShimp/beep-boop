@@ -1,3 +1,33 @@
+# Mr.Roboger's Neighborhood
+
+[Github Pages Link](https://rileyshimp.github.io/beep-boop/)
+
+#### [Riley Shimp](https://www.github.com/rileyshimp)
+
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* JQuery
+
+## Description
+This is a page that takes a number from the user and returns a range of numbers from 0 to the user inputted number with fun substitutions made for any number in the range containing a 1, 2 or 3.
+
+## Setup/Installation Requirements
+### Step 1
+Clone the repository:
+``` 
+$ git clone https://github.com/RileyShimp/beep-boop.git 
+```
+### Step 2
+Navigate to the `Beep-Boop` directory on your computer.
+### Step 3
+
+
+## Tests:
+
 Describe beepBoop()
 
 Test: "It should return an array with the inputted number in it"

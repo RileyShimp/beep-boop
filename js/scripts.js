@@ -21,8 +21,8 @@ function beepBoop(input) {
 $(document).ready(function() {
   $("form").submit(function(event){
     event.preventDefault();
-    const input = $("input#inputNumber").val()
-    const robogerResponse = beepBoop(input);
+    const inputNumber = $("input#inputNumber").val()
+    const robogerResponse = beepBoop(inputNumber);
     $("#response").text(robogerResponse);
 })
 });
