@@ -63,6 +63,12 @@ Test "Multiple digit numbers in the output containing 1, 2 or 3 should be replac
 Code: beepBoop(100);
 Expected Output: [0, "Beep!", "Boop!",..., 89, 90, "Beep!", "Boop!", "Won't you be my neighbor?", 94,...]
 
+Describe beepBoopReverse()
+
+Test: "It should return the same thing as beepBoop() but in reverse."
+Code: beepBoopReverse(5)
+Expected output:[5, 4, "Won't you be my neighbor?", "Boop!", "Beep!", 0]
+
 ## Known Bugs
 
 * none

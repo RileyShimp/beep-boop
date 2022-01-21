@@ -18,15 +18,15 @@ function beepBoop(input) {
 
 function beepBoopReverse(input) {
   let outputArray = [];
-  for (let i = i; i = 0; i--) {
+  for (let i = 0; i <= input; i++) {
     if (i.toString().includes("3")) {
-      outputArray.push("Won't you be my neighbor?")
+      outputArray.unshift("Won't you be my neighbor?")
     } else if (i.toString().includes("2")) {
-      outputArray.push("Boop!")
+      outputArray.unshift("Boop!")
     } else if (i.toString().includes("1")) {
-      outputArray.push("Beep!")
+      outputArray.unshift("Beep!")
     } else {
-    outputArray.push(i)
+    outputArray.unshift(i)
     }
   }
   return outputArray;
