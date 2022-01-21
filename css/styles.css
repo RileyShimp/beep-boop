@@ -3,13 +3,12 @@
 body {
   background-image: url(../img/denis-degioanni-9wH624ALFQA-unsplash.jpg);
   background-size: 250% 300%;
-  animation: movingBackground 15s alternate infinite;
+  animation: movingBackground 17s alternate infinite;
   font-family: 'Montserrat';
 }
 
 @keyframes movingBackground {
     0% {background-position: 0%}
-    50% {background-position: 50%}
     100% {background-position: 100%}
 }
 
