@@ -29,7 +29,7 @@ $ git clone https://github.com/RileyShimp/beep-boop.git
 ### Step 2
 Navigate to the `Beep-Boop` directory on your computer.
 ### Step 3
-Open index.html in your preferred browser
+Open `index.html` in your preferred browser
 
 ## Tests:
 

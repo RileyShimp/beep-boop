@@ -1,0 +1,24 @@
+
+
+
+
+body {
+  background: linear-gradient(0.25turn, rgb(38, 70, 83), rgb(42, 157, 143), rgb(233, 196, 106), rgb(244, 162, 97), rgb(231, 111, 81));
+  background-size: 1000% 1000%;
+  animation: changeColor 5s alternate infinite;
+}
+
+@keyframes changeColor {
+    0% {background-position: 0%}
+    50% {background-position: 50%}
+    100% {background-position: 100%}
+}
+
+header {
+  background-color: rgb(225, 217, 208);
+  margin-top: 5em;
+  margin-bottom: 3em;
+  padding: 5em;
+  text-align: center;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.8), 0 16px 30px 0 rgba(0, 0, 0, 0.7);
+}
