@@ -71,7 +71,7 @@ Expected output:[5, 4, "Won't you be my neighbor?", "Boop!", "Beep!", 0]
 
 ## Known Bugs
 
-* none
+* UI logic for beepBoopReverse() has not been completed so the function can't be interacted with.
 
 ## License
 

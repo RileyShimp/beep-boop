@@ -1,5 +1,3 @@
-// Business Logic
-
 function beepBoop(input) {
   let outputArray = [];
   for (let i = 0; i <= input; i++) {
@@ -32,34 +30,12 @@ function beepBoopReverse(input) {
   return outputArray;
 }
 
-  // UI Logic
-
-
-// $(document).ready(function() {
-//   $("form").submit(function(event){
-//     event.preventDefault();
-//     const inputNumber = $("input#inputNumber").val();
-//     const robogerResponse = beepBoop(inputNumber);
-//     $("#response").text(robogerResponse);
-//     $(".responseBox").fadeIn()
-//   })
-// });
-
-
 $(document).ready(function() {
   $("form").submit(function(event){
     event.preventDefault();
     const inputNumber = $("input#inputNumber").val();
     const robogerResponse = beepBoop(inputNumber);
-    const checkbox = $("#reverse");
-    const robogerResponseReverse = beepBoopReverse(inputNumber);
-    if (checkbox.checked = true) {
-      $("#response").text(robogerResponseReverse);
-      $(".responseBox").fadeIn();
-    } 
-    else {
-      $("#response").text(robogerResponse);
-      $(".responseBox").fadeIn()
-    }
+    $("#response").text(robogerResponse);
+    $(".responseBox").fadeIn()
   })
 });
